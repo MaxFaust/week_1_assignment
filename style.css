@@ -1,0 +1,53 @@
+/* Give your page a fun background color */
+body {
+  background-color: rgb(211,211,211);
+  background: linear-gradient(to right, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+}
+/* Make the header and footer a different color from the background */
+.header {
+  padding: 0px;
+  text-align: center;
+  background: #07aa9e;
+  color: #337277;
+  font-size: 27px;
+  opacity: 1.5;
+  text-shadow: 2px 2px #000000;
+  transform: scale(1.4) rotate(1deg) translate(23px, 0px) skew(-32deg, -1deg);
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(7, 170, 158);
+   color: #181818;
+   text-align: center;
+}
+/* Align the h1 containing your name in the center of the header*/
+  /* done in .header */
+/* Make your p tag a different color and italic */
+.list {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    letter-spacing: .5px;
+    word-spacing: 1px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-decoration: underline;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    text-shadow: 1px 2px #000000
+}
+/* Put a border around your image */
+.image {
+  border: 12px
+  groove rgba(28,110,164,0.71);
+  width: 500px;
+}
+/* Change the font-family of your list */
+/* Done in .list */
+.dejavu {
+  font weight:
+}
